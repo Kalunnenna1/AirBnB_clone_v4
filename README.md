@@ -47,12 +47,12 @@ List of commands this console current supports:
 * `def to_dict(self)` - returns a dictionary containing all keys/values of the instance
 
 Classes inherited from Base Model:
-* [amenity.py](/models/amenity.py)
-* [city.py](/models/city.py)
-* [place.py](/models/place.py)
-* [review.py](/models/review.py)
-* [state.py](/models/state.py)
-* [user.py](/models/user.py)
+* amenity.py
+* city.py
+* place.py
+* review.py
+* state.py
+* user.py
 
 #### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
 [file_storage.py](/models/engine/file_storage.py) - serializes instances to a JSON file & deserializes back to instances
@@ -153,12 +153,17 @@ EOF  all  create  destroy  help  quit  show  update
 ## Bugs
 No known bugs at this time. 
 
-## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+## Original Authors
+Alexa Orrico 
+Jennifer Huang  
+Jhoan Zamora
 
-Second part of Airbnb: Joann Vuong
+Forked from:
+Joann Vuong
+
+Author for this Part 4:
+Aderonke Agbeyo / github: 
+Nnenna Kalu Alie / github: Kalunnenna1
+
 ## License
 Public Domain. No copy write protection. 
